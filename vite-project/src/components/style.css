@@ -46,3 +46,14 @@
     justify-content: center;
     align-items: center;
 }
+.search{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.search-inp{
+    width: 400px;
+    margin: 20px;
+}
