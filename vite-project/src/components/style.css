@@ -47,13 +47,21 @@
     align-items: center;
 }
 .search{
-    display:flex ;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 50px;
+   
 }
 .search-inp{
+    display: flex;
     width: 400px;
     margin: 20px;
+    
 }
+.search-input{
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+  }

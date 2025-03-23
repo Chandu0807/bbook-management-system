@@ -1,14 +1,15 @@
 import './style.css'
-function Book(props){
-    return(
+function Book({ bookdetails }){
+    return (
         <div className="book-card">
-        <img src={props.bookdetails.coverImage} alt="" width="200px" height="300px" className='book-cover'/>
-        <div className='book-details'>
-            <h2 className='book-title'>{props.bookdetails.title}</h2>
-            <p className='book-author'>{props.bookdetails.author}</p>
-            <p className='book-decri'>{props.bookdetails.description}</p>
+            <img src={bookdetails.cover_image} alt="Book Cover" width="200px" height="300px" className='book-cover'/>
+            <div className='book-details'>
+                <h2 className='book-title'>{bookdetails.title}</h2>
+                <p className='book-author'>{bookdetails.author}</p>
+                <p className='book-decri'>{bookdetails.description}</p>
+            </div>
         </div>
-        </div>
-    )
+    );
 }
+
 export default Book;
